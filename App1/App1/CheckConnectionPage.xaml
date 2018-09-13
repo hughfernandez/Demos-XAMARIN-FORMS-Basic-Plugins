@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.CheckConnectionPage">
+    <ContentPage.Content>
+        <StackLayout Margin="20">
+            <Label x:Name="status" HorizontalOptions="CenterAndExpand"/>
+            <ListView x:Name="types" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

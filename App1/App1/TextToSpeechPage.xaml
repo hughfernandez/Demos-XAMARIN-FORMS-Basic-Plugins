@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.TextToSpeechPage">
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+            <Entry x:Name="txtToSpeech" Text="Hola mundo!!.." />
+            <Label Text="Tono" />
+            <Slider x:Name="sliderPitch" Minimum="0" Maximum="2" Value="1" />
+            <Label Text="Velocidad" />
+            <Slider x:Name="sliderRate" Minimum="0" Maximum="2" Value="1" />
+            <Label Text="Volumen" />
+            <Slider x:Name="sliderVolume" Minimum="0" Maximum="1" Value="1" />
+            <Switch x:Name="useDefaults" />
+            <Button x:Name="languageButton" Text="Idioma" Clicked="languageButton_Clicked" />
+            <Button x:Name="speakButton" Text="Hablar" Clicked="speakButton_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

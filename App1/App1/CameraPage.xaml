@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.CameraPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button x:Name="photoButton" Text="Tomar foto" Pressed="photoButton_Pressed" Margin="20"/>
+            <ListView x:Name="listPhotos" HasUnevenRows="True" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Image Source="{Binding Source}" 
+                                   Aspect="AspectFit" 
+                                   Margin="5" />
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

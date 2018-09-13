@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.SettingsPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Guarde aca su nombre"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Entry Text="Texto de prueba" WidthRequest="150" x:Name="parametro1"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"/>
+            <Button Text="Guardar Cambios" Pressed="Button_Pressed" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

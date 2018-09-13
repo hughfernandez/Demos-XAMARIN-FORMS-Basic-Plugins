@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App1"
+             x:Class="App1.DeviceInfoPage">
+    <ScrollView>
+    <StackLayout Margin="10">
+        <Label Text="Información del dispositivo" FontSize="Large" />
+        <Label Text="Identificador" />
+        <Label x:Name="Id" />
+        <Label Text="Modelo" />
+        <Label x:Name="Model" />
+        <Label Text="Nombre" />
+        <Label x:Name="Manufacturer" />
+        <Label Text="Nombre del dispositivo" />
+        <Label x:Name="DeviceName" />
+        <Label Text="Versión" />
+        <Label x:Name="Version" />
+        <Label Text="Numero de versión" />
+        <Label x:Name="VersionNumber" />
+        <Label Text="Versión del app" />        
+        <Label x:Name="AppVersion" />
+        <Label Text="Numero de compilación" />
+        <Label x:Name="AppBuild" />
+        <Label Text="Plataforma" />
+        <Label x:Name="Platform" />
+        <Label Text="Tipo" />
+        <Label x:Name="Idiom" />
+    </StackLayout>
+    </ScrollView>
+</ContentPage>

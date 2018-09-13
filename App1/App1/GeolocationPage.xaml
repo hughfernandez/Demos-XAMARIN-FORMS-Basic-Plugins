@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.GeolocationPage">
+    <ContentPage.Content>
+        <StackLayout Margin="20">
+            <Label Text="Coordenadas" />
+            <Label Text="Latitud Y" />
+            <Label x:Name="lat" />
+            <Label Text="Longitud X" />
+            <Label x:Name="lon" />
+            <Label Text="Altura h" />
+            <Label x:Name="altimetry" />
+            <Label Text="Orientación" FontSize="Large" FontAttributes="Bold" />
+            <Label x:Name="compass" FontAttributes="Bold"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
